@@ -2,7 +2,8 @@ name: Rajkot Air Quality Data Collection
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/20 * * * *"
+      timezone: "Asia/Kolkata"
 
   workflow_dispatch:
 
